@@ -55,18 +55,3 @@ body {
     color: #fff;
     letter-spacing: 5px;
   }
-  @media (max-width: 600px) {
-    .main-area span {
-      font-size: 28px;
-    }
-  }
-  @media (max-width: 505px) {
-    .main-area span {
-      font-size: 22px;
-    }
-  }
-  @media (max-width: 350px) {
-    .main-area span {
-      font-size: 16px;
-    }
-  }
