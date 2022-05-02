@@ -29,6 +29,8 @@ body {
       padding: 50px 0;
     }
   }
+
+  
   main .overlay {
     background: #282830;
     width: 100%;
@@ -46,5 +48,25 @@ body {
   @media (max-width: 340px) {
     .main-area {
       padding-left: 10px;
+    }
+  }
+  .main-area span {
+    font-size: 36px;
+    color: #fff;
+    letter-spacing: 5px;
+  }
+  @media (max-width: 600px) {
+    .main-area span {
+      font-size: 28px;
+    }
+  }
+  @media (max-width: 505px) {
+    .main-area span {
+      font-size: 22px;
+    }
+  }
+  @media (max-width: 350px) {
+    .main-area span {
+      font-size: 16px;
     }
   }
